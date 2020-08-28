@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Brandon Regular';
-    src: url("./Assets/Brandon_reg.otf");
+    src: url("./Assets/GTWalsheimPro-Regular.ttf");
 }
 
 @font-face {
     font-family: 'Brandon Bold';
-    src: url("./Assets/Brandon_bld.otf");
+    src: url("./Assets/GTWalsheimPro-Bold.ttf");
 }
 
 body {
@@ -22,7 +22,7 @@ body:before {
     width: 100%;
     height: 100%;
     z-index: -10;
-    background: url("./Assets/Fondo\ Bianca\ home.png") no-repeat center center;
+    background: url("./Assets/Asian\ fondo.png") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -73,7 +73,7 @@ a {
 }
 
 .box {
-    width: 90% !important;
+    width: 80% !important;
     display: block;
     margin: auto;
 }
@@ -139,7 +139,7 @@ a {
 .icono-svg {
     margin: auto;
     width: 2.5rem;
-    filter: invert(55%) sepia(44%) saturate(1483%) hue-rotate(161deg) brightness(89%) contrast(96%);
+    /* filter: invert(55%) sepia(44%) saturate(1483%) hue-rotate(161deg) brightness(89%) contrast(96%); */
 }
 
 /*   ---- ---FOOD BOX  ---- ------ */
@@ -155,15 +155,16 @@ a {
     font-style: normal !important;
     margin: 0;
     padding-left: 0.2rem;
-    font-size: 1.9rem !important;
+    font-size: 1.5rem !important;
     font-weight: 100;
 }
 
 .food-box .h4-precio {
+    font-family: 'Brandon Regular' !important;
     margin: 0;
     padding-top: 0.3em;
-    font-size: 1.7rem;
-    font-weight: 200;
+    font-size: 1.5rem;
+    font-weight:100 !important;
 }
 
 .food-box p {
@@ -228,7 +229,9 @@ a {
     font-weight: bolder;
     letter-spacing: 2px;
 }
-
+.division-list{
+    margin-top:24%;
+}
 a:link {
     text-decoration: none;
 }

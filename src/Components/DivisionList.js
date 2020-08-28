@@ -9,7 +9,7 @@ const DivisionList = () => {
   const divisions = foundPlace.divisiones;
   return (
     <div className="centered fadeIn" >
-      <div className="list-add">
+      <div className="list-add division-list">
         <ul className="list-food">
         <CategoryAloneList />
           {divisions.map((division, index) => {

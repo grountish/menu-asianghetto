@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { DataContext } from './../Context/Context'
 
 
-const FoodCategory = ({ lang, nombre, nombre_en, nombre_es }) => {
+const FoodCategory = ({ lang, nombre, nombre_en, nombre_es, comentario }) => {
 
   const {foundPlace} = useContext(DataContext)
     const nameFood = () => {
@@ -20,22 +20,25 @@ const FoodCategory = ({ lang, nombre, nombre_en, nombre_es }) => {
       <div
         className="box"
         style={{
-          height: `calc(70vh/${foundPlace.categorias.length})`,
+          height: `calc(100vh/${foundPlace.categorias.length})`,
           alignItems: "center",
           display: "flex",
+          flexDirection:"column",
           borderBottom: foundPlace.borderButton
         }}
       >
         <h1
           className="headerCategory"
           style={{
-            fontSize: `calc(62vh/${foundPlace.categorias.length}/2.5)`,
+            fontSize: `calc(92vh/${foundPlace.categorias.length}/2.5)`,
             margin: "auto",
             color: foundPlace.color,
             fontFamily: "Brandon Bold"
           }}>
           {nameFood()}
         </h1>
+      
+        <p>{comentario}</p>
       </div>
     );
   }
