@@ -657,7 +657,7 @@
       "sugerenciaDelDiaDescripcion": "",
       "backgroundColor": "white",
       "overlayColor": "rgba(0,0,0, 0.5)",
-      "borderButton": "5px dotted #FFF",
+      "borderButton": "7px dotted #FFF",
       "homeInverted": false,
       "hasUpselling": false,
       "modalBackgroundColor": "#FFF",
@@ -677,12 +677,12 @@
         "nombre": "DUMPLINGS",
         "comentario": "Al vapor, se terminan a la plancha (5u)",
         "data": [{
-          "nombre": "Cerdo y akusay",
+          "nombre": "Dumpling de cerdo y akusay",
           "descripcion": "",
           "precio": "270",
           "tags": ""
         }, {
-          "nombre": "Kimichi y brotes",
+          "nombre": "Dumpling de kimichi y brotes",
           "descripcion": "",
           "precio": "270",
           "tags": ""
@@ -694,7 +694,7 @@
         "imagen": "",
         "comentario": "Fritos (5u)",
         "data": [{
-          "nombre": "Langostino y verdeo",
+          "nombre": "Wonton Langostino y verdeo",
           "descripcion": "",
           "precio": "300",
           "tags": ""
@@ -706,12 +706,12 @@
         "imagen": "",
         "comentario": "Fritos (3u)",
         "data": [{
-          "nombre": "Repollo, zanahoria y brotes",
+          "nombre": "Spring Rolls de Repollo, zanahoria y brotes",
           "descripcion": "",
           "precio": "250",
           "tags": ""
         }, {
-          "nombre": "Ternera y cebollín",
+          "nombre": "Spring Rolls de Ternera y cebollín",
           "descripcion": "",
           "precio": "250",
           "tags": ""
@@ -723,17 +723,17 @@
         "comentario": "Al vapor (2u)",
         "imagen": "",
         "data": [{
-          "nombre": "Cerdo, pickle pepino, batata crocante, hoisin",
+          "nombre": "Bao de Cerdo, pickle pepino, batata crocante, hoisin",
           "descripcion": "",
           "precio": "320",
           "tags": ""
         }, {
-          "nombre": "Hongos Shiitake, miso coleslaw, pickle de remolacha, maní",
+          "nombre": "Bao de Hongos Shiitake, miso coleslaw, pickle de remolacha, maní",
           "descripcion": "",
           "precio": "320",
           "tags": ""
         }, {
-          "nombre": "Langostino en panko, mayonesa de wasabi, cilantro, pickle de cebolla morada",
+          "nombre": "Bao de Langostino en panko, mayonesa de wasabi, cilantro, pickle de cebolla morada",
           "descripcion": "",
           "precio": "320",
           "tags": ""

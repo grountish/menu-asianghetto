@@ -38,7 +38,6 @@ const FoodCategory = ({ lang, nombre, nombre_en, nombre_es, comentario }) => {
           {nameFood()}
         </h1>
       
-        <p>{comentario}</p>
       </div>
     );
   }

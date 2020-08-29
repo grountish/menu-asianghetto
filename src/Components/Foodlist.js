@@ -16,6 +16,9 @@ const FoodList = ({ lang, match }) => {
     <div className="centered fadeIn">
       <div className="list-add">
         <ul className="list-food">
+        <h1 className="category-name">{categoryFoods}</h1>
+        <p className="category-comentario">{foundCategory.comentario}</p>
+
           {foundCategory.data.map((oneFood, index) => {
             return <Foodbox {...oneFood} key={index} lang={lang} />;
           })}

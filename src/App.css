@@ -12,7 +12,6 @@ body {
     animation: fadeIn ease forwards 1.3s;
 }
 
-
 body:before {
     content: "";
     display: block;
@@ -72,6 +71,15 @@ a {
     margin: 2%;
 }
 
+.category-name {
+    font-family: 'Brandon Bold';
+    text-align: left;
+    font-size: 24px;
+    margin: 15px auto 15px 14px;
+}
+.category-comentario{
+    margin:0 auto 25px 14px;
+}
 .box {
     width: 80% !important;
     display: block;
@@ -102,7 +110,7 @@ a {
     text-align: center;
     margin: auto;
     display: block;
-    margin:  0.6rem auto;
+    margin: 0.6rem auto;
     width: 100px;
 }
 
@@ -155,7 +163,7 @@ a {
     font-style: normal !important;
     margin: 0;
     padding-left: 0.2rem;
-    font-size: 1.5rem !important;
+    font-size: 1.3rem !important;
     font-weight: 100;
 }
 
@@ -163,16 +171,15 @@ a {
     font-family: 'Brandon Regular' !important;
     margin: 0;
     padding-top: 0.3em;
-    font-size: 1.5rem;
-    font-weight:100 !important;
+    font-size: 1.3rem;
+    font-weight: 100 !important;
 }
 
 .food-box p {
     font-weight: 100;
     margin: 0.1rem;
-    font-size: 1.6rem;
-        line-height:24px;
-
+    font-size: 1.4rem;
+    line-height: 24px;
     text-shadow: 1px 1px 1px white;
 }
 
@@ -214,7 +221,7 @@ a {
     display: flex;
     font-size: 1.7em;
     margin: 2%;
-    justify-content:center;
+    justify-content: center;
 }
 
 .homeAndSearch {
@@ -229,9 +236,11 @@ a {
     font-weight: bolder;
     letter-spacing: 3px;
 }
-.division-list{
-    margin-top:24%;
+
+.division-list {
+    margin-top: 24%;
 }
+
 a:link {
     text-decoration: none;
 }
