@@ -77,9 +77,11 @@ a {
     font-size: 24px;
     margin: 15px auto 15px 14px;
 }
-.category-comentario{
-    margin:0 auto 25px 14px;
+
+.category-comentario {
+    margin: 0 auto 25px 14px;
 }
+
 .box {
     width: 80% !important;
     display: block;
@@ -92,6 +94,26 @@ a {
     margin: 0 auto 1rem auto;
     justify-self: center;
     display: block;
+    animation: spin 24s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
 }
 
 .lang-buttons {
@@ -191,6 +213,21 @@ a {
     text-transform: uppercase !important;
     font-weight: 500;
     letter-spacing: 1.2px;
+   
+    margin-bottom: 1.7rem;
+    border-width: 0 0 13px 0;
+    
+}
+
+.nice-border {
+    border-style: dotted;
+    border-color: #FFF;
+    border-image-source: url("./Assets/dots.svg");
+    border-image-slice: 33% 33%;
+    border-image-repeat: round;
+}
+.nice-border::after, .nice-border::before{
+     content: "⠀⠀";
 }
 
 .languages {

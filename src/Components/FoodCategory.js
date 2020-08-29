@@ -18,17 +18,16 @@ const FoodCategory = ({ lang, nombre, nombre_en, nombre_es, comentario }) => {
   }
     return (
       <div
-        className="box"
+        className="box "
         style={{
           height: `calc(100vh/${foundPlace.categorias.length})`,
           alignItems: "center",
           display: "flex",
-          flexDirection:"column",
-          borderBottom: foundPlace.borderButton
+          flexDirection:"column"
         }}
       >
         <h1
-          className="headerCategory"
+          className="headerCategory nice-border "
           style={{
             fontSize: `calc(92vh/${foundPlace.categorias.length}/2.5)`,
             margin: "auto",

@@ -21,12 +21,12 @@ const Division = (props) => {
         style={{
           height: `calc(110vh/${foundPlace.categorias.length})`,
           alignItems: "center",
-          display: "flex",
-          borderBottom: foundPlace.borderButton,
+          display: "flex"
+         
         }}
       >
         <h1
-          className="headerCategory"
+          className="headerCategory nice-border"
           style={{
             fontSize: `calc(112vh/${foundPlace.categorias.length}/2.5)`,
             margin: "auto",
