@@ -1,14 +1,14 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe215413c5215576cf5a23580a41f550",
+    "revision": "79912ae978522eefb2e43119fb53c49c",
     "url": "/index.html"
   },
   {
-    "revision": "4574ddca1c05a5b27f56",
-    "url": "/static/css/3.36110d65.chunk.css"
+    "revision": "0fa841c8235ce2d73111",
+    "url": "/static/css/3.227f2111.chunk.css"
   },
   {
-    "revision": "1ba2a33cb4241b6a67ad",
+    "revision": "086eea7b6bf034b5f8c1",
     "url": "/static/css/main.5f924cc3.chunk.css"
   },
   {
@@ -20,20 +20,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.d714a71c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4574ddca1c05a5b27f56",
-    "url": "/static/js/3.34c52070.chunk.js"
+    "revision": "0fa841c8235ce2d73111",
+    "url": "/static/js/3.45fc8948.chunk.js"
   },
   {
     "revision": "18fc851423f9a4d02b90",
     "url": "/static/js/4.c71257a5.chunk.js"
   },
   {
-    "revision": "1ba2a33cb4241b6a67ad",
-    "url": "/static/js/main.db0a9820.chunk.js"
+    "revision": "086eea7b6bf034b5f8c1",
+    "url": "/static/js/main.555cfaf8.chunk.js"
   },
   {
-    "revision": "e4a706f8b7eb9ca950a5",
-    "url": "/static/js/runtime-main.a8758c04.js"
+    "revision": "6bf6f62edbba8cee463c",
+    "url": "/static/js/runtime-main.7d98a8a0.js"
   },
   {
     "revision": "10a8ddc4d6cfe826b7463e1fcf15e603",
@@ -44,12 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Apio.5dbc3a6e.svg"
   },
   {
-    "revision": "fa11c3ca7b2301d6b8da51b04985fb05",
-    "url": "/static/media/Brandon_bld.fa11c3ca.otf"
-  },
-  {
-    "revision": "1f55925e52b9e71fd57108874184060d",
-    "url": "/static/media/Brandon_reg.1f55925e.otf"
+    "revision": "a0250da68b0b5fd1bd4b93686596cc6e",
+    "url": "/static/media/Asian fondo.a0250da6.png"
   },
   {
     "revision": "1aefb69375323114a4d56cf6b2a95d9a",
@@ -60,8 +56,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Crustaceos.8aa5389d.svg"
   },
   {
-    "revision": "32424b63900eeaa05e307d0dc25d28b7",
-    "url": "/static/media/Fondo Bianca home.32424b63.png"
+    "revision": "8ee87a5a1f4219b9a1fb984f554662e3",
+    "url": "/static/media/GTWalsheimPro-Bold.8ee87a5a.ttf"
+  },
+  {
+    "revision": "550c7b057b4c5e92c648fb468dc9fb08",
+    "url": "/static/media/GTWalsheimPro-Regular.550c7b05.ttf"
   },
   {
     "revision": "613a2750ef3f00fcf7f8bf016c79bed4",
@@ -108,8 +108,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fondo-web.458fdcd1.png"
   },
   {
-    "revision": "829f9a0a4ce949ffee0dc77f84bad96e",
-    "url": "/static/media/home.829f9a0a.svg"
+    "revision": "331d8f96f3b2b9c5b24d31618e704fe1",
+    "url": "/static/media/home.331d8f96.svg"
   },
   {
     "revision": "12e263b5de2d768cce1fa9519df8cda3",
