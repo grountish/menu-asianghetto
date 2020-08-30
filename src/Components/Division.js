@@ -4,6 +4,7 @@ import { DataContext } from '../Context/Context'
 const Division = (props) => {
 
   const {foundPlace, lang} = useContext(DataContext)
+  
     const nameFood = () => {
       switch (lang) {
         case "ca":
@@ -19,7 +20,7 @@ const Division = (props) => {
       <div
         className="box"
         style={{
-          height: `calc(110vh/${foundPlace.categorias.length})`,
+          height: `calc(130vh/${foundPlace.categorias.length})`,
           alignItems: "center",
           display: "flex"
          
@@ -28,7 +29,7 @@ const Division = (props) => {
         <h1
           className="headerCategory nice-border"
           style={{
-            fontSize: `calc(112vh/${foundPlace.categorias.length}/2.5)`,
+            fontSize: `calc(132vh/${foundPlace.categorias.length}/2.5)`,
             margin: "auto",
             color: foundPlace.color,
             fontFamily: "Brandon Bold"

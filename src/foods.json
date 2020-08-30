@@ -666,10 +666,12 @@
       "color": "#000",
       "divisiones": [{
         "nombre_es": "Comida",
-        "nombre": "Comida"
+        "nombre": "Comida",
+        "Name":"食事"
       }, {
         "nombre_es": "Bebidas",
-        "nombre": "Bebidas"
+        "nombre": "Bebidas",
+        "Name":"飲み物"
       }],
       "categorias": [{
         "division": "Comida",
@@ -740,7 +742,7 @@
         }]
       }, {
         "division": "Comida",
-        "nombre": "Wok y Salteados",
+        "nombre": "WOK Y SALTEADOS",
         "categoryAlone": false,
         "comentario": "",
         "imagen": "",
