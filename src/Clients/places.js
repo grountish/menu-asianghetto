@@ -9,7 +9,7 @@ import foods from "../foods.json";
 import Helmet from "react-helmet";
 import "./../App.css";
 import Upselling from "../Components/Upselling";
-import home from './../Assets/home.svg'
+import home from './../Assets/asianicon.png'
 
 
 const param = window.location.pathname.slice(1);
