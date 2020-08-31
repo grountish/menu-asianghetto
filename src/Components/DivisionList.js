@@ -25,7 +25,8 @@ const DivisionList = () => {
           })}
         </ul>
       </div>
-      
+      <div className="footer"><h2>Pedidos al 223-6970507</h2></div>
+
     </div>
   );
 };

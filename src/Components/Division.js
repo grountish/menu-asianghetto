@@ -32,7 +32,8 @@ const Division = (props) => {
             fontSize: `calc(132vh/${foundPlace.categorias.length}/2.5)`,
             margin: "auto",
             color: foundPlace.color,
-            fontFamily: "Brandon Bold"
+            fontFamily: "Brandon Bold",
+            paddingBottom:"15px"
           }}>
           {nameFood()}
         </h1>

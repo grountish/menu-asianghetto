@@ -792,8 +792,8 @@
           "precio": "390",
           "tags": ""
         }, {
-          "nombre": "Pad Thai, fideos de arroz, sweet chily, cerdo, langostinos, huevo, pepino, chaucha, maní, cebolla caramelizada, azúcar mascabo, cilantro",
-          "descripcion": "",
+          "nombre": "Pad Thai",
+          "descripcion": "fideos de arroz, sweet chily, cerdo, langostinos, huevo, pepino, chaucha, maní, cebolla caramelizada, azúcar mascabo, cilantro",
           "precio": "620",
           "tags": ""
         }, {
@@ -809,13 +809,13 @@
         "comentario": "",
         "imagen": "https://entrenosotros.consum.es/public/Image/2019/6/Tapas-CONSUM---Grande.png.jpg",
         "data": [{
-          "nombre": "Tonkotsu Ramen: caldo de cerdo, noodles caseros, pulled pork, huevo, espinaca, alga nori, verdeo",
-          "descripcion": "",
+          "nombre": "Tonkotsu Ramen",
+          "descripcion": "caldo de cerdo, noodles caseros, pulled pork, huevo, espinaca, alga nori, verdeo",
           "precio": "500",
           "tags": ""
         }, {
-          "nombre": "Miso Ramen: caldo de hongos shiitake, miso, noodles caseros, hongos shiitake, kale, huevo, alga nori, verdeo",
-          "descripcion": "",
+          "nombre": "Miso Ramen",
+          "descripcion": "caldo de hongos shiitake, miso, noodles caseros, hongos shiitake, kale, huevo, alga nori, verdeo",
           "precio": "500",
           "tags": ""
         }]
@@ -845,13 +845,13 @@
         "comentario": "",
         "imagen": "",
         "data": [{
-          "nombre": "Envero Torrontés, refreso de uva torrontés 330ml",
-          "descripcion": "",
+          "nombre": "Envero Torrontés, 330ml",
+          "descripcion": " refreso de uva torrontés",
           "precio": "300",
           "tags": ""
         }, {
-          "nombre": "Envero Cabernet Sauvignon, refresco de uva Cabernet S.",
-          "descripcion": "",
+          "nombre": "Envero Cabernet Sauvignon",
+          "descripcion": "refresco de uva Cabernet S.",
           "precio": "300",
           "tags": ""
         }]
@@ -862,18 +862,18 @@
         "comentario": "",
         "imagen": "",
         "data": [{
-          "nombre": "Soju Tok Tok Durazno (3° alc) 355ml",
-          "descripcion": "",
+          "nombre": "Soju Tok Tok Durazno ",
+          "descripcion": "(3° alc) 355ml",
           "precio": "160",
           "tags": ""
         }, {
-          "nombre": " Soju Tok Tok Ananá (3° alc) 355ml",
-          "descripcion": "",
+          "nombre": " Soju Tok Tok Ananá ",
+          "descripcion": "(3° alc) 355ml",
           "precio": "160",
           "tags": ""
         }, {
-          "nombre": "Soju Jinko Green Grape (uva verde, 14°alc) 355ml",
-          "descripcion": "",
+          "nombre": "Soju Jinko Green Grape ",
+          "descripcion": "(uva verde, 14°alc) 355ml",
           "precio": "220",
           "tags": ""
         }]
@@ -884,23 +884,23 @@
         "comentario": "",
         "imagen": "",
         "data": [{
-          "nombre": "Mango Lingo (malta y jugo de mango) 500 ml",
-          "descripcion": "",
+          "nombre": "Mango Lingo ",
+          "descripcion": "(malta y jugo de mango) 500 ml",
           "precio": "220",
           "tags": ""
         }, {
-          "nombre": "De arroz Tsingtao 500 ml",
-          "descripcion": "",
+          "nombre": "De arroz Tsingtao",
+          "descripcion": " 500 ml",
           "precio": "220",
           "tags": ""
         }, {
-          "nombre": "San Miguel Pale Pilsen 500",
-          "descripcion": "",
+          "nombre": "San Miguel Pale Pilsen ",
+          "descripcion": "500 ml",
           "precio": "220",
           "tags": ""
         }, {
-          "nombre": "Stella Artois 500 ml",
-          "descripcion": "",
+          "nombre": "Stella Artois ",
+          "descripcion": "500 ml",
           "precio": "180",
           "tags": ""
         }]
@@ -911,18 +911,18 @@
         "comentario": "",
         "imagen": "",
         "data": [{
-          "nombre": " Vino naranjo Pielihueso, Bodega Pielihueso, Los Chacayes, Valle de Uco 750 ml",
-          "descripcion": "",
+          "nombre": " Vino naranjo Pielihueso",
+          "descripcion": "Bodega Pielihueso, Los Chacayes, Valle de Uco 750 ml",
           "precio": "900",
           "tags": ""
         }, {
-          "nombre": "Vino rosado Rosado Primero Petit Verdot, Bodega Pielihueso, Los Chacayes, Valle de Uco, 750 ml",
-          "descripcion": "",
+          "nombre": "Vino rosado Rosado Primero Petit Verdot",
+          "descripcion": "Bodega Pielihueso, Los Chacayes, Valle de Uco, 750 ml",
           "precio": "600",
           "tags": ""
         }, {
-          "nombre": "Vino tinto, Malbec Primero, Bodega Pielihueso, Los Chacayes, Valle de Uco, 750 ml",
-          "descripcion": "",
+          "nombre": "Vino tinto, Malbec Primero",
+          "descripcion": "Bodega Pielihueso, Los Chacayes, Valle de Uco, 750 ml",
           "precio": "600",
           "tags": ""
         }]

@@ -32,7 +32,8 @@ const FoodCategory = ({ lang, nombre, nombre_en, nombre_es, comentario }) => {
             fontSize: `calc(92vh/${foundPlace.categorias.length}/2.5)`,
             margin: "auto",
             color: foundPlace.color,
-            fontFamily: "Brandon Bold"
+            fontFamily: "Brandon Bold",
+            paddingBottom:"10px"
           }}>
           {nameFood()}
         </h1>
