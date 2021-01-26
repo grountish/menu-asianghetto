@@ -1,0 +1,44 @@
+[debug] [2021-01-26T12:15:46.923Z] ----------------------------------------------------------------------
+[debug] [2021-01-26T12:15:46.926Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2021-01-26T12:15:46.926Z] CLI Version:   8.9.0
+[debug] [2021-01-26T12:15:46.926Z] Platform:      darwin
+[debug] [2021-01-26T12:15:46.926Z] Node Version:  v12.16.1
+[debug] [2021-01-26T12:15:46.930Z] Time:          Tue Jan 26 2021 13:15:46 GMT+0100 (Central European Standard Time)
+[debug] [2021-01-26T12:15:46.930Z] ----------------------------------------------------------------------
+[debug] [2021-01-26T12:15:46.931Z] 
+[debug] [2021-01-26T12:15:46.944Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-26T12:15:46.946Z] > authorizing via signed-in user
+[debug] [2021-01-26T12:15:46.947Z] [iam] checking project asian-ghetto for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-01-26T12:15:46.949Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-01-26T12:15:46.949Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-01-26T12:15:48.018Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Tue, 26 Jan 2021 12:15:47 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-26T12:15:48.084Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/asian-ghetto:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-01-26T12:15:49.592Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 26 Jan 2021 12:15:49 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=686","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-26T12:15:49.593Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project asian-ghetto:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2021-01-26T12:15:49.595Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/asian-ghetto  
+ 
+[debug] [2021-01-26T12:15:49.947Z] <<< HTTP RESPONSE 403 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Tue, 26 Jan 2021 12:15:49 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-26T12:15:49.948Z] <<< HTTP RESPONSE BODY {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-01-26T12:15:49.954Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-01-26T12:15:50.076Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:38:12)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:41:35)
+    at Request.self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:311:20)
+    at Request.EventEmitter.emit (domain.js:482:12)
+    at Request.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:311:20)
+    at Request.EventEmitter.emit (domain.js:482:12)
+    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (events.js:417:28)
+    at IncomingMessage.emit (events.js:323:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:482:12)
+    at endReadableNT (_stream_readable.js:1204:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[error] 
+[error] Error: Failed to get Firebase project asian-ghetto. Please make sure the project exists and your account has permission to access it.

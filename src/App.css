@@ -242,10 +242,6 @@ a {
     border-image-repeat: round;
 }
 
-.nice-border::after, .nice-border::before {
-    content: "⠀⠀";
-}
-
 .languages {
     display: flex;
     flex-direction: row;

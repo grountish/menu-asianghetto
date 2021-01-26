@@ -681,12 +681,17 @@
         "data": [{
           "nombre": "Dumpling de cerdo y akusay",
           "descripcion": "",
-          "precio": "270",
+          "precio": "400",
           "tags": ""
         }, {
           "nombre": "Dumpling de kimichi y brotes",
           "descripcion": "",
-          "precio": "270",
+          "precio": "400",
+          "tags": ""
+        }, {
+          "nombre": "Dumpling de poroto negro, batata y cebolla caramelizada",
+          "descripcion": "",
+          "precio": "400",
           "tags": ""
         }]
       }, {
@@ -698,7 +703,7 @@
         "data": [{
           "nombre": "Wonton Langostino y verdeo",
           "descripcion": "",
-          "precio": "300",
+          "precio": "470",
           "tags": ""
         }]
       }, {
@@ -710,12 +715,12 @@
         "data": [{
           "nombre": "Spring Rolls de Repollo, zanahoria y brotes",
           "descripcion": "",
-          "precio": "250",
+          "precio": "350",
           "tags": ""
         }, {
           "nombre": "Spring Rolls de Ternera y cebollín",
           "descripcion": "",
-          "precio": "250",
+          "precio": "350",
           "tags": ""
         }]
       }, {
@@ -727,17 +732,17 @@
         "data": [{
           "nombre": "Bao de Cerdo, pickle pepino, batata crocante, hoisin",
           "descripcion": "",
-          "precio": "320",
+          "precio": "450",
           "tags": ""
         }, {
           "nombre": "Bao de Hongos Shiitake, miso coleslaw, pickle de remolacha, maní",
           "descripcion": "",
-          "precio": "320",
+          "precio": "450",
           "tags": ""
         }, {
           "nombre": "Bao de Langostino en panko, mayonesa de wasabi, cilantro, pickle de cebolla morada",
           "descripcion": "",
-          "precio": "320",
+          "precio": "450",
           "tags": ""
         }]
       }, {
@@ -749,57 +754,77 @@
         "data": [{
           "nombre": "Wok de vegetales, cerdo y langostino con arroz al vapor",
           "descripcion": "",
-          "precio": "460",
+          "precio": "550",
           "tags": ""
         }, {
           "nombre": "",
           "descripcion": "*opcion sólo langostinos",
-          "precio": "500",
+          "precio": "600",
           "tags": ""
         }, {
           "nombre": "Wok de vegetales, brotes y arroz al vapor",
           "descripcion": "(vegan)",
-          "precio": "400",
+          "precio": "530",
           "tags": ""
         }, {
           "nombre": "Arroz chaufa con vegetales, huevo y cerdo",
           "descripcion": "(opción vegan)",
-          "precio": "380",
+          "precio": "500",
           "tags": ""
         }, {
-          "nombre": "",
+          "nombre": " ",
           "descripcion": "*extra langostinos",
-          "precio": "60",
+          "precio": "100",
           "tags": ""
         }, {
           "nombre": "Salteado de pollo con kimchi y arroz al vapor",
           "descripcion": "(levemente picante)",
-          "precio": "400",
+          "precio": "550",
           "tags": ""
         }, {
           "nombre": "Salteado de vegetales con kimchi y arroz al vapor",
           "descripcion": "(vegan)",
-          "precio": "370",
+          "precio": "500",
           "tags": ""
-        }, {
-          "nombre": "Curry verde de vegetales con pollo y arroz al vapor",
-          "descripcion": "",
-          "precio": "520",
-          "tags": ""
-        }, {
-          "nombre": "",
-          "descripcion": "*vegan",
-          "precio": "390",
-          "tags": ""
-        }, {
+        },{
           "nombre": "Pad Thai",
           "descripcion": "fideos de arroz, sweet chily, cerdo, langostinos, huevo, pepino, chaucha, maní, cebolla caramelizada, azúcar mascabo, cilantro",
-          "precio": "620",
+          "precio": "750",
           "tags": ""
         }, {
-          "nombre": "Pad Thai",
+          "nombre": "Pad Thai ",
           "descripcion": "(vegan)",
+          "precio": "700",
+          "tags": ""
+        }, {
+          "nombre": "Chow Mein",
+          "descripcion": "vegetales y tofu",
           "precio": "600",
+          "tags": ""
+        }, {
+          "nombre": "Chow Mein",
+          "descripcion": "vegetales y cerdo",
+          "precio": "600",
+          "tags": ""
+        }, {
+          "nombre": " ",
+          "descripcion": "*extra langostinos",
+          "precio": "100",
+          "tags": ""
+        }, {
+          "nombre": "Chaufa vegan",
+          "descripcion": "",
+          "precio": "500",
+          "tags": ""
+        }, {
+          "nombre": "Chaufa con cerdo",
+          "descripcion": "",
+          "precio": "500",
+          "tags": ""
+        }, {
+          "nombre": " ",
+          "descripcion": "*extra langostinos",
+          "precio": "100",
           "tags": ""
         }]
       }, {
@@ -811,12 +836,17 @@
         "data": [{
           "nombre": "Tonkotsu Ramen",
           "descripcion": "caldo de cerdo, noodles caseros, pulled pork, huevo, espinaca, alga nori, verdeo",
-          "precio": "500",
+          "precio": "600",
           "tags": ""
         }, {
           "nombre": "Miso Ramen",
           "descripcion": "caldo de hongos shiitake, miso, noodles caseros, hongos shiitake, kale, huevo, alga nori, verdeo",
-          "precio": "500",
+          "precio": "600",
+          "tags": ""
+        }, {
+          "nombre": "Asian Ghetto",
+          "descripcion": "caldo de hongos, jugo de kimchi, milanesita tonkatsu, huevo, verdeo, alga nori, vegetales de estación, crocante de camote",
+          "precio": "600",
           "tags": ""
         }]
       }, {
@@ -832,98 +862,60 @@
           "precio": "450",
           "tags": ""
         }, {
-          "nombre": "Milanesitas tonkatsu de pescado con arroz al vapor",
+          "nombre": "Curry verde de vegetales con pollo y arroz al vapor",
           "descripcion": "",
           "descripcion_en": "",
-          "precio": "450",
+          "precio": "700",
+          "tags": ""
+        }, {
+          "nombre": "Curry verde",
+          "descripcion": "vegan con tofu",
+          "descripcion_en": "",
+          "precio": "700",
           "tags": ""
         }]
       }, {
         "division": "Bebidas",
         "nombre": "SIN ALCOHOL",
         "categoryAlone": false,
-        "comentario": "",
+        "comentario": "Consultar por cervezas importadas y pizarra de vinos",
         "imagen": "",
         "data": [{
-          "nombre": "Envero Torrontés, 330ml",
-          "descripcion": " refreso de uva torrontés",
-          "precio": "300",
+          "nombre": "Agua con gas 500ml",
+          "descripcion": "",
+          "precio": "110",
           "tags": ""
         }, {
-          "nombre": "Envero Cabernet Sauvignon",
-          "descripcion": "refresco de uva Cabernet S.",
-          "precio": "300",
-          "tags": ""
-        }]
-      }, {
-        "division": "Bebidas",
-        "nombre": "SOJU",
-        "categoryAlone": false,
-        "comentario": "",
-        "imagen": "",
-        "data": [{
-          "nombre": "Soju Tok Tok Durazno ",
-          "descripcion": "(3° alc) 355ml",
-          "precio": "160",
+          "nombre": "Agua sin gas 500ml",
+          "descripcion": "",
+          "precio": "110",
           "tags": ""
         }, {
-          "nombre": " Soju Tok Tok Ananá ",
-          "descripcion": "(3° alc) 355ml",
-          "precio": "160",
+          "nombre": "Pepsi 345ml",
+          "descripcion": "",
+          "precio": "100",
           "tags": ""
         }, {
-          "nombre": "Soju Jinko Green Grape ",
-          "descripcion": "(uva verde, 14°alc) 355ml",
-          "precio": "220",
+          "nombre": "Pepsi Zero 345ml",
+          "descripcion": "",
+          "precio": "100",
+          "tags": ""
+        }, {
+          "nombre": "Seven Up 345ml",
+          "descripcion": "",
+          "precio": "100",
           "tags": ""
         }]
       }, {
         "division": "Bebidas",
         "nombre": "CERVEZA",
         "categoryAlone": false,
-        "comentario": "",
+        "comentario": "consultar por cervezas importadas y pizarra de vinos",
         "imagen": "",
         "data": [{
-          "nombre": "Mango Lingo ",
-          "descripcion": "(malta y jugo de mango) 500 ml",
-          "precio": "220",
-          "tags": ""
-        }, {
-          "nombre": "De arroz Tsingtao",
-          "descripcion": " 500 ml",
-          "precio": "220",
-          "tags": ""
-        }, {
-          "nombre": "San Miguel Pale Pilsen ",
-          "descripcion": "500 ml",
-          "precio": "220",
-          "tags": ""
-        }, {
           "nombre": "Stella Artois ",
-          "descripcion": "500 ml",
-          "precio": "180",
-          "tags": ""
-        }]
-      }, {
-        "division": "Bebidas",
-        "nombre": "VINOS",
-        "categoryAlone": false,
-        "comentario": "",
-        "imagen": "",
-        "data": [{
-          "nombre": " Vino naranjo Pielihueso",
-          "descripcion": "Bodega Pielihueso, Los Chacayes, Valle de Uco 750 ml",
-          "precio": "900",
-          "tags": ""
-        }, {
-          "nombre": "Vino rosado Rosado Primero Petit Verdot",
-          "descripcion": "Bodega Pielihueso, Los Chacayes, Valle de Uco, 750 ml",
-          "precio": "600",
-          "tags": ""
-        }, {
-          "nombre": "Vino tinto, Malbec Primero",
-          "descripcion": "Bodega Pielihueso, Los Chacayes, Valle de Uco, 750 ml",
-          "precio": "600",
+          "descripcion": "473 ml",
+          "precio": "250",
           "tags": ""
         }]
       }]
