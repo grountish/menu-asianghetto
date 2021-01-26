@@ -2,23 +2,19 @@ import React, { useState, useContext } from "react";
 import Foodbox from "./Foodbox";
 import Searchbar from "./Searchbar";
 import { DataContext } from "./../Context/Context";
-import AlergenosPopUp from "./../Components/AlergenosPopUp";
-import vegetarianos from './../Assets/ic vegetarianos.svg';
-import veganos from './../Assets/ics veganos.svg';
-import celiacos from './../Assets/Tacc.svg';
 
 const SearchComponent = () => {
   const [inputValue, setInputValue] = useState("");
   const { lang, allergyList, flattened} = useContext(DataContext);
   const [filterFoods, setFilterFoods] = useState(flattened);
 
-  const [isOpenPopUp, setIsOpenPopUp] = useState();
+  // const [isOpenPopUp, setIsOpenPopUp] = useState();
   const [displayAllergList, setdisplayAllergList] = useState(false);
 
-  const showAllergenPopUp = () => {
-    setIsOpenPopUp(!isOpenPopUp);
-    setdisplayAllergList(true);
-  };
+  // const showAllergenPopUp = () => {
+  //   setIsOpenPopUp(!isOpenPopUp);
+  //   setdisplayAllergList(true);
+  // };
   const filterOnChange = (e) => {
     setInputValue(e.target.value);
 
@@ -33,32 +29,32 @@ const SearchComponent = () => {
     setFilterFoods(filteredFoods);
   };
 
-  const filterByTag = (tag) => {
-    setdisplayAllergList(false);
-    let filteredFoods = flattened.filter((food) =>
-      food.tags.toLowerCase().includes(tag)
-    );
+  // const filterByTag = (tag) => {
+  //   setdisplayAllergList(false);
+  //   let filteredFoods = flattened.filter((food) =>
+  //     food.tags.toLowerCase().includes(tag)
+  //   );
 
-    setFilterFoods(filteredFoods);
-  };
+  //   setFilterFoods(filteredFoods);
+  // };
 
-  const switchLang = (parameter) => {
-    const translations = {
-      vegetarian: ["VEGETARIANO", "Vegetarian", "Vegetariano"],
-      vegan: ["VEGANO", "Vegan", "Vegano"],
-      celiacs:["CELIACO", "Allergens", "Alérgenos"]
-    }
-    switch (lang) {
-      case "ca":
-        return translations[parameter][0];
-      case "en":
-        return translations[parameter][1];
-      case "es":
-        return translations[parameter][2];
-      default:
-        return translations[parameter][0]
-    }
-  };
+  // const switchLang = (parameter) => {
+  //   const translations = {
+  //     vegetarian: ["VEGETARIANO", "Vegetarian", "Vegetariano"],
+  //     vegan: ["VEGANO", "Vegan", "Vegano"],
+  //     celiacs:["CELIACO", "Allergens", "Alérgenos"]
+  //   }
+  //   switch (lang) {
+  //     case "ca":
+  //       return translations[parameter][0];
+  //     case "en":
+  //       return translations[parameter][1];
+  //     case "es":
+  //       return translations[parameter][2];
+  //     default:
+  //       return translations[parameter][0]
+  //   }
+  // };
 
   return (
     <div className="centered fadeIn">

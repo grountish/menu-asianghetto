@@ -13,8 +13,8 @@ import home from './../Assets/asianicon.png'
 
 
 const param = window.location.pathname.slice(1);
-const foundPlace =foods.places.find((x) => x.place === param) || foods.places[1];
-const option1 = foundPlace.place || "";
+const foundPlace = foods.places[1];
+const option1 = foundPlace.place;
 const arrayOfMenu = [];
 foundPlace.categorias.map((x) => arrayOfMenu.push(x.data));
 let flattened = arrayOfMenu.flat();
@@ -148,6 +148,11 @@ const hasUpselling = () => {
                     setShowBack(true);
                   }}
                 >
+                  <Route
+                    exact
+                    path="/"
+                    render={(props) => <DivisionList {...props} lang={lang} />}
+                  />
                   <Route
                     exact
                     path="/:place"
