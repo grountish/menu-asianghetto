@@ -9,7 +9,7 @@ const SearchComponent = () => {
   const [filterFoods, setFilterFoods] = useState(flattened);
 
   // const [isOpenPopUp, setIsOpenPopUp] = useState();
-  const [displayAllergList, setdisplayAllergList] = useState(false);
+  const [displayAllergList] = useState(false);
 
   // const showAllergenPopUp = () => {
   //   setIsOpenPopUp(!isOpenPopUp);

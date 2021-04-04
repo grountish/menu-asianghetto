@@ -681,17 +681,17 @@
         "data": [{
           "nombre": "Dumpling de cerdo y akusay",
           "descripcion": "",
-          "precio": "400",
+          "precio": "420",
           "tags": ""
         }, {
           "nombre": "Dumpling de kimichi y brotes",
           "descripcion": "",
-          "precio": "400",
+          "precio": "420",
           "tags": ""
         }, {
           "nombre": "Dumpling de poroto negro, batata y cebolla caramelizada",
           "descripcion": "",
-          "precio": "400",
+          "precio": "420",
           "tags": ""
         }]
       }, {
@@ -703,7 +703,7 @@
         "data": [{
           "nombre": "Wonton Langostino y verdeo",
           "descripcion": "",
-          "precio": "470",
+          "precio": "480",
           "tags": ""
         }]
       }, {
@@ -715,12 +715,12 @@
         "data": [{
           "nombre": "Spring Rolls de Repollo, zanahoria y brotes",
           "descripcion": "",
-          "precio": "350",
+          "precio": "380",
           "tags": ""
         }, {
           "nombre": "Spring Rolls de Ternera y cebollín",
           "descripcion": "",
-          "precio": "350",
+          "precio": "380",
           "tags": ""
         }]
       }, {
@@ -732,17 +732,17 @@
         "data": [{
           "nombre": "Bao de Cerdo, pickle pepino, batata crocante, hoisin",
           "descripcion": "",
-          "precio": "450",
+          "precio": "470",
           "tags": ""
         }, {
           "nombre": "Bao de Hongos Shiitake, miso coleslaw, pickle de remolacha, maní",
           "descripcion": "",
-          "precio": "450",
+          "precio": "470",
           "tags": ""
         }, {
           "nombre": "Bao de Langostino en panko, mayonesa de wasabi, cilantro, pickle de cebolla morada",
           "descripcion": "",
-          "precio": "450",
+          "precio": "470",
           "tags": ""
         }]
       }, {
@@ -754,77 +754,62 @@
         "data": [{
           "nombre": "Wok de vegetales, cerdo y langostino con arroz al vapor",
           "descripcion": "",
-          "precio": "550",
+          "precio": "680",
           "tags": ""
         }, {
           "nombre": "",
           "descripcion": "*opcion sólo langostinos",
-          "precio": "600",
+          "precio": "800",
           "tags": ""
         }, {
           "nombre": "Wok de vegetales, brotes y arroz al vapor",
           "descripcion": "(vegan)",
-          "precio": "530",
+          "precio": "560",
           "tags": ""
         }, {
           "nombre": "Arroz chaufa con vegetales, huevo y cerdo",
           "descripcion": "(opción vegan)",
-          "precio": "500",
+          "precio": "550",
           "tags": ""
         }, {
           "nombre": " ",
           "descripcion": "*extra langostinos",
-          "precio": "100",
+          "precio": "130",
           "tags": ""
         }, {
           "nombre": "Salteado de pollo con kimchi y arroz al vapor",
           "descripcion": "(levemente picante)",
-          "precio": "550",
+          "precio": "580",
           "tags": ""
         }, {
           "nombre": "Salteado de vegetales con kimchi y arroz al vapor",
           "descripcion": "(vegan)",
-          "precio": "500",
+          "precio": "550",
           "tags": ""
         },{
           "nombre": "Pad Thai",
           "descripcion": "fideos de arroz, sweet chily, cerdo, langostinos, huevo, pepino, chaucha, maní, cebolla caramelizada, azúcar mascabo, cilantro",
-          "precio": "750",
+          "precio": "780",
           "tags": ""
         }, {
           "nombre": "Pad Thai ",
           "descripcion": "(vegan)",
-          "precio": "700",
+          "precio": "730",
           "tags": ""
         }, {
           "nombre": "Chow Mein",
           "descripcion": "vegetales y tofu",
-          "precio": "600",
+          "precio": "630",
           "tags": ""
         }, {
           "nombre": "Chow Mein",
           "descripcion": "vegetales y cerdo",
-          "precio": "600",
+          "precio": "630",
           "tags": ""
         }, {
           "nombre": " ",
           "descripcion": "*extra langostinos",
-          "precio": "100",
-          "tags": ""
-        }, {
-          "nombre": "Chaufa vegan",
-          "descripcion": "",
-          "precio": "500",
-          "tags": ""
-        }, {
-          "nombre": "Chaufa con cerdo",
-          "descripcion": "",
-          "precio": "500",
-          "tags": ""
-        }, {
-          "nombre": " ",
-          "descripcion": "*extra langostinos",
-          "precio": "100",
+          "precio": "130",
           "tags": ""
         }]
       }, {
@@ -836,17 +821,17 @@
         "data": [{
           "nombre": "Tonkotsu Ramen",
           "descripcion": "caldo de cerdo, noodles caseros, pulled pork, huevo, espinaca, alga nori, verdeo",
-          "precio": "600",
+          "precio": "630",
           "tags": ""
         }, {
           "nombre": "Miso Ramen",
           "descripcion": "caldo de hongos shiitake, miso, noodles caseros, hongos shiitake, kale, huevo, alga nori, verdeo",
-          "precio": "600",
+          "precio": "630",
           "tags": ""
         }, {
           "nombre": "Asian Ghetto",
           "descripcion": "caldo de hongos, jugo de kimchi, milanesita tonkatsu, huevo, verdeo, alga nori, vegetales de estación, crocante de camote",
-          "precio": "600",
+          "precio": "630",
           "tags": ""
         }]
       }, {
@@ -859,19 +844,19 @@
           "nombre": "Milanesitas tonkatsu de cerdo con arroz al vapor",
           "descripcion": "",
           "descripcion_en": "",
-          "precio": "450",
+          "precio": "580",
           "tags": ""
         }, {
           "nombre": "Curry verde de vegetales con pollo y arroz al vapor",
           "descripcion": "",
           "descripcion_en": "",
-          "precio": "700",
+          "precio": "730",
           "tags": ""
         }, {
           "nombre": "Curry verde",
           "descripcion": "vegan con tofu",
           "descripcion_en": "",
-          "precio": "700",
+          "precio": "730",
           "tags": ""
         }]
       }, {
@@ -907,15 +892,20 @@
           "tags": ""
         }]
       }, {
-        "division": "Bebidas",
-        "nombre": "CERVEZA",
+        "division": "Comida",
+        "nombre": "POSTRES",
         "categoryAlone": false,
-        "comentario": "consultar por cervezas importadas y pizarra de vinos",
+        "comentario": "",
         "imagen": "",
         "data": [{
-          "nombre": "Stella Artois ",
-          "descripcion": "473 ml",
-          "precio": "250",
+          "nombre": "Buñuelo de banana",
+          "descripcion": "con miel y escamas de coco",
+          "precio": "450",
+          "tags": ""
+        },{
+          "nombre": "Mango",
+          "descripcion": "con arroz",
+          "precio": "550",
           "tags": ""
         }]
       }]
